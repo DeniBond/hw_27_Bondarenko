@@ -4,6 +4,7 @@ const random = new Random();
 const empGen = new EmployeeGenerator(random);
 const list = new List('#content');
 
+// Creating empoyees
 document.getElementById('create').addEventListener('click', ()=>{
     openButtons()
     try {

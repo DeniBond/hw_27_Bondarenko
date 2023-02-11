@@ -7,7 +7,7 @@ class Employees {
     add = (employee) => {
         if (this.data[employee.id]) {
             // throw new Error('Error adding User, Id not unique')
-            console.log('Error adding User, Id not unique\'')
+            console.log('Error adding User, Id not unique')
         } else {
             this.data[employee.id] = employee;
             return true;
